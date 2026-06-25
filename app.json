@@ -1,0 +1,44 @@
+{
+  "expo": {
+    "name": "Dog Mouse Pro",
+    "slug": "dog-mouse-pro",
+    "version": "1.0.0",
+    "orientation": "landscape",
+    "userInterfaceStyle": "dark",
+    "icon": "./assets/icon.png",
+    "owner": "BLZINN",
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#0A0A0F"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.dogmousepro.app",
+      "buildNumber": "1"
+    },
+    "android": {
+      "package": "com.dogmousepro.app",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "backgroundColor": "#0A0A0F"
+      },
+      "permissions": [
+        "BLUETOOTH",
+        "BLUETOOTH_ADMIN",
+        "BLUETOOTH_CONNECT",
+        "BLUETOOTH_SCAN",
+        "VIBRATE",
+        "WAKE_LOCK",
+        "FOREGROUND_SERVICE",
+        "SYSTEM_ALERT_WINDOW",
+        "android.permission.INTERNET"
+      ]
+    },
+    "plugins": ["expo-keep-awake"],
+    "extra": {
+      "eas": {
+        "projectId": "dog-mouse-pro"
+      }
+    }
+  }
+}
